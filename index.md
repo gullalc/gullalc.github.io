@@ -7,7 +7,7 @@ Prior to joining TIB, I worked for ~3 years as a research assistant with [Dr. Sa
 I received my master's from [IIIT, Delhi](https://iiitd.ac.in/), where my [thesis](https://repository.iiitd.edu.in/jspui/handle/123456789/429) was about exploring mean shift clustering using metric learning, under the guidance of Dr. Saket Anand. During master's, I also worked extensively on developing a traffic light/sign detection module for IIITD's autonomous car project [SWARATH](https://cai.iiitd.ac.in/research.php) and also mentored several students to improve the same.
 
 ## Contact
-You can reach me at gullal.cheema@tib.eu or gullalcheema@gmail.com
+You can reach me at [gullal.cheema@tib.eu](mailto:gullal.cheema@tib.eu) or [gullalcheema@gmail.com](mailto:gullalcheema@gmail.com)
 
 ## Updates and News
 - (Jan-Feb, 2020) - At School of Advanced Study (UoL) collaborating with digital humanities students, advised by [Prof. Jane Winters](https://research.sas.ac.uk/search/staff/126/professor-jane-winters).
