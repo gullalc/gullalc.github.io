@@ -1,4 +1,4 @@
-| [Publications](publications.md) | [Readings](readings.md) |
+[Home](index.md) | [Publications](publications.md) | [Readings](readings.md) |
 ## About Me
 I am a first year PhD student at Leibniz University Hannover, Germany and a [MSCA](https://ec.europa.eu/research/mariecurieactions/node_en) fellow currently working on one of the projects in [CLEOPATRA](http://cleopatra-project.eu/) ITN. As a part of the ITN,  I am employed as a research assistant at [Visual Analytics Group](https://www.tib.eu/en/research-development/visual-analytics/), TIB and advised by [Dr. Ralph Ewerth](https://www.tib.eu/en/research-development/visual-analytics/staff/ralph-ewerth/). My current work and research revolves around interdesciplinary topics like deep/machine learning, multimodality with focus on Computer Vision and NLP, digital humanities and semiotics. In addition, I am really interested in exploring explainable AI, training with limited data or self-supervised learning and clustering.
 
@@ -10,8 +10,11 @@ I received my master's from [IIIT, Delhi](https://iiitd.ac.in/), where my [thesi
 You can reach me at [gullal.cheema@tib.eu](mailto:gullal.cheema@tib.eu) or [gullalcheema@gmail.com](mailto:gullalcheema@gmail.com)
 
 ## Updates and News
+- (2 August, 2020) - Invited paper in BigMM 2020 on Semi-supervised clustering with neural networks. [Pre-print](https://arxiv.org/abs/1806.01547)
+- (29 June - 3 July, 2020) - Attending Digital Methods summer school (UvA). Contributed to an interdisciplinary project on analyzing Black Lives Matter (BLM) social media posts. [Wiki](https://wiki.digitalmethods.net/Dmi/SummerSchool2020BlackSquares)
+- (10 June, 2020) - 3rd in CLEF CheckThat! 2020 Task 1. Challenge paper coming soon..!!
 - (Jan-Feb, 2020) - At School of Advanced Study (UoL) collaborating with digital humanities students, advised by [Prof. Jane Winters](https://research.sas.ac.uk/search/staff/126/professor-jane-winters).
 - (Nov, 2019) - Paper titled ["A hybrid approach for tiger re-identification"](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVWC/Shukla_A_Hybrid_Approach_to_Tiger_Re-Identification_ICCVW_2019_paper.pdf) is accepted at Computer Vision for Wildlife Conservation Workshop in challenge paper track at ICCV 2019.
 - (Sep, 2019) - 1st Learning week of CLEOPATRA ITN at [CAAS](http://www.caas.unizg.hr/), Dubrovnik, Croatia.
 - (July, 2019) - [Tiger Census 2018](https://projecttiger.nic.in/WriteReadData/PublicationFile/Tiger%20Status%20Report_XPS220719032%20%20new%20layout(1).pdf) India is out and Tiger numbers grew from ~2200 (2014) to ~2900 (2018). Image analysis was done by a deep learning based tool developed by me as a research assistant at IIITD.
-- (July, 2019) - Moved to Hannover, Germany from India. Joined [TIB](https://www.tib.eu/en/) as a research assitant.
+- (July, 2019) - Moved to Hannover, Germany from India. Joined [TIB](https://www.tib.eu/en/) as a research assistant.
