@@ -1,4 +1,4 @@
-[Home](index.md) | [Publications](publications.md) | [Readings](readings.md) |
+[Home](index.md) | [Publications](publications.md) | [Readings](readings.md)
 ## Conferences
 - *A Shukla, __*GS Cheema__, S Anand, Semi-Supervised Clustering with Neural Networks, _BigMM 2020_ (Invited Paper) [[Pre-print](https://arxiv.org/abs/1806.01547)]
 - *A Shukla, __*GS Cheema__, S Anand, Q Qureshi, Y Jhala, Primate face identification in the wild, _PRICAI 2019_ [[Link](https://link.springer.com/chapter/10.1007/978-3-030-29894-4_32)]

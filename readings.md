@@ -1,1 +1,2 @@
-## Paper of Interest
+[Home](index.md) | [Publications](publications.md) | [Readings](readings.md)
+
