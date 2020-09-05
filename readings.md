@@ -1,2 +1,2 @@
-[Home](index.md) | [Publications](publications.md) | [Readings](readings.md)
-
+[Home](index.md) | [Publications](publications.md)
+##
