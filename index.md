@@ -10,7 +10,8 @@ I received my master's from [IIIT, Delhi](https://iiitd.ac.in/), where my [thesi
 You can reach me at [gullal.cheema@tib.eu](mailto:gullal.cheema@tib.eu) or [gullalcheema@gmail.com](mailto:gullalcheema@gmail.com)
 
 ## Updates and News
-- (2 August, 2020) - Invited paper in BigMM 2020 on Semi-supervised clustering with neural networks. [[Pre-print](https://arxiv.org/abs/1806.01547)]
+- (22 Sept, 2020) - Presented CLEF Checkthat! 2020 paper. [[Link](https://sites.google.com/view/clef2020-checkthat/)], [[Paper](https://arxiv.org/abs/2007.10534)]
+- (2 Aug, 2020) - Invited paper in BigMM 2020 on Semi-supervised clustering with neural networks. [[Pre-print](https://arxiv.org/abs/1806.01547)]
 - (29 June - 3 July, 2020) - Attending Digital Methods summer school (UvA). Contributed to an interdisciplinary project on analyzing Black Lives Matter (BLM) social media posts. [[Wiki](https://wiki.digitalmethods.net/Dmi/SummerSchool2020BlackSquares)]
 - (10 June, 2020) - 3rd in CLEF CheckThat! 2020 Task 1. Challenge paper coming soon..!!
 - (Jan-Feb, 2020) - At School of Advanced Study (UoL) collaborating with digital humanities students, advised by [Prof. Jane Winters](https://research.sas.ac.uk/search/staff/126/professor-jane-winters).
