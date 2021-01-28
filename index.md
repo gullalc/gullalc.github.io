@@ -10,6 +10,8 @@ I received my master's from [IIIT, Delhi](https://iiitd.ac.in/), where my [thesi
 You can reach me at [gullal.cheema@tib.eu](mailto:gullal.cheema@tib.eu) or [gullalcheema@gmail.com](mailto:gullalcheema@gmail.com)
 
 ## Updates and News
+- (18-22 Jan, 2021) - CLEOPATRA-ITN Hackathon and R&D week.
+- (14 Dec, 2020) - Presented task paper (2nd Rank) on MediaEval 2020 Fake News Challenge. [[Link](https://multimediaeval.github.io/editions/2020/tasks/fakenews/)], [[Paper](https://arxiv.org/abs/2101.03529)]
 - (22 Sept, 2020) - Presented CLEF Checkthat! 2020 paper. [[Link](https://sites.google.com/view/clef2020-checkthat/)], [[Paper](https://arxiv.org/abs/2007.10534)]
 - (2 Aug, 2020) - Invited paper in BigMM 2020 on [Semi-supervised clustering with neural networks](https://arxiv.org/abs/1806.01547).
 - (29 June - 3 July, 2020) - Attending Digital Methods summer school (UvA). Contributed to an interdisciplinary project on analyzing Black Lives Matter (BLM) social media posts. [[Wiki](https://wiki.digitalmethods.net/Dmi/SummerSchool2020BlackSquares)]
