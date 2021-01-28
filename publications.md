@@ -6,6 +6,7 @@
 
 
 ## Workshops
+- __GS Cheema__, S Hakimov, R Ewerth, TIB's Visual Analytics Group at MediaEval '20: Detecting Fake News on Corona Virus and 5G Conspiracy, _MediaEval 2020_ [[Paper](https://arxiv.org/abs/2101.03529)], [[Code](https://github.com/cleopatra-itn/TIB_VA_MediaEval_FakeNews)]
 - __GS Cheema__, S Hakimov, R Ewerth, Check_square at CheckThat! 2020: Claim Detection in Social Media via Fusion of Transformer and Syntactic Features, _CLEF CheckThat! 2020_ [[Paper](https://arxiv.org/abs/2007.10534)][[Code](https://github.com/cleopatra-itn/claim_detection)]
 - *Ankita Shukla, *Connor Anderson, __*Gullal Cheema__, Pei Guo, Suguru Onda, Divyam Anshumaan, Saket Anand, Ryan Farrell, A Hybrid Approach to Tiger Re-Identification, _ICCV 2019 Workshop on Computer Vision for Wildlife Conservation_ [[Paper](https://openaccess.thecvf.com/content_ICCVW_2019/html/CVWC/Shukla_A_Hybrid_Approach_to_Tiger_Re-Identification_ICCVW_2019_paper.html)][[Code](https://github.com/FGVC/DelPro)]
 
