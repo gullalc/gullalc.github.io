@@ -3,80 +3,186 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+
+@inproceedings{cheema-etal-2022-mm,
+    title = "MM-Claims: A Dataset for Multimodal Claim Detection in Social Media",
+    author = {Cheema, Gullal S.  and
+      Hakimov, Sherzod  and
+      Sittar, Abdul  and
+      M{\"u}ller-Budack, Eric  and
+      Otto, Christian  and
+      Ewerth, Ralph},
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.72",
+    doi = "10.18653/v1/2022.findings-naacl.72",
+    pages = "962--979",
+    abbr = "NAACL",
+    abstract="In recent years, the problem of misinformation on the web has become widespread across languages, countries, and various social media platforms. Although there has been much work on automated fake news detection, the role of images and their variety are not well explored. In this paper, we investigate the roles of image and text at an earlier stage of the fake news detection pipeline, called claim detection. For this purpose, we introduce a novel dataset, MM-Claims, which consists of tweets and corresponding images over three topics: COVID-19, Climate Change and broadly Technology. The dataset contains roughly 86000 tweets, out of which 3400 are labeled manually by multiple annotators for the training and evaluation of multimodal models. We describe the dataset in detail, evaluate strong unimodal and multimodal baselines, and analyze the potential and drawbacks of current models. ",
+    pdf="https://aclanthology.org/2022.findings-naacl.72.pdf",
+    code="https://github.com/tibhannover/mm_claims",
+    html="https://aclanthology.org/2022.findings-naacl.72/",
+    selected="true"
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{hakimov-etal-2022-tib,
+    title = "{TIB}-{VA} at {S}em{E}val-2022 Task 5: A Multimodal Architecture for the Detection and Classification of Misogynous Memes",
+    author = "Hakimov, Sherzod  and
+      Cheema, Gullal S.  and
+      Ewerth, Ralph",
+    booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.semeval-1.105",
+    doi = "10.18653/v1/2022.semeval-1.105",
+    pages = "756--760",
+    abbr = "SemEval | NAACL",
+    abstract="The detection of offensive, hateful content on social media is a challenging problem that affects many online users on a daily basis. Hateful content is often used to target a group of people based on ethnicity, gender, religion and other factors. The hate or contempt toward women has been increasing on social platforms. Misogynous content detection is especially challenging when textual and visual modalities are combined to form a single context, e.g., an overlay text embedded on top of an image, also known as meme. In this paper, we present a multimodal architecture that combines textual and visual features to detect misogynous memes. The proposed architecture is evaluated in the SemEval-2022 Task 5: MAMI - Multimedia Automatic Misogyny Identification challenge under the team name TIB-VA. We obtained the best result in the Task-B where the challenge is to classify whether a given document is misogynous and further identify the following sub-classes: shaming, stereotype, objectification, and violence.",
+    pdf="https://aclanthology.org/2022.semeval-1.105.pdf",
+    code="https://github.com/tibhannover/multimodal-misogyny-detection-mami-2022",
+    html="https://aclanthology.org/2022.semeval-1.105/"
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+
+
+@inproceedings{cheema2021role,
+  title={On the Role of Images for Analyzing Claims in Social Media},
+  author={Cheema, Gullal S. and Hakimov, Sherzod and M{\"u}ller-Budack, Eric and Ewerth, Ralph},
+  booktitle={Proceedings of the 2nd International Workshop on Cross-lingual Event-centric Open Analytics co-located with the 30th The Web Conference (WWW 2021)},
+  year={2021},
+  organization={Aachen, Germany: RWTH Aachen},
+  abstract="Fake news is a severe problem in social media. In this paper, we present an empirical study on visual, textual, and multimodal models for the tasks of claim, claim check-worthiness, and conspiracy detection, all of which are related to fake news detection. Recent work suggests that images are more influential than text and often appear alongside fake text. To this end, several multimodal models have been proposed in recent years that use images along with text to detect fake news on social media sites like Twitter. However, the role of images is not well understood for claim detection, specifically using transformer-based textual and multimodal models. We investigate state-of-the-art models for images, text (Transformer-based), and multimodal information for four different datasets across two languages to understand the role of images in the task of claim and conspiracy detection.",
+  code="https://github.com/cleopatra-itn/image_text_claim_detection",
+  arxiv="2103.09602",
+  html="http://ceur-ws.org/Vol-2829/",
+  selected="true",
+  abbr="WWW"
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{cheema2021fair,
+  title={A fair and comprehensive comparison of multimodal tweet sentiment analysis methods},
+  author={Cheema, Gullal S. and Hakimov, Sherzod and M{\"u}ller-Budack, Eric and Ewerth, Ralph},
+  booktitle={Proceedings of the 2021 Workshop on Multi-Modal Pre-Training for Multimedia Understanding},
+  pages={37--45},
+  year={2021},
+  abstract="Opinion and sentiment analysis is a vital task to characterize subjective information in social media posts. In this paper, we present a comprehensive experimental evaluation and comparison with six state-of-the-art methods, from which we have re-implemented one of them. In addition, we investigate different textual and visual feature embeddings that cover different aspects of the content, as well as the recently introduced multimodal CLIP embeddings. Experimental results are presented for two different publicly available benchmark datasets of tweets and corresponding images. In contrast to the evaluation methodology of previous work, we introduce a reproducible and fair evaluation scheme to make results comparable. Finally, we conduct an error analysis to outline the limitations of the methods and possibilities for the future work.",
+  html="https://dl.acm.org/doi/10.1145/3463945.3469058",
+  arxiv="2106.08829",
+  code="https://github.com/cleopatra-itn/fair_multimodal_sentiment",
+  abbr="MMPT | ICMR"
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{gottschalk2021oekg,
+  title={OEKG: The Open Event Knowledge Graph},
+  author={Gottschalk, Simon and Kacupaj, Endri and Abdollahi, Sara and Alves, Diego and Amaral, Gabriel and Koutsiana, Elisavet and Kuculo, Tin and Major, Daniela and Mello, Caio and Cheema, Gullal S. and others},
+  booktitle={Proceedings of the 2nd International Workshop on Cross-lingual Event-centric Open Analytics co-located with the 30th The Web Conference (WWW 2021)},
+  year={2021},
+  organization={Aachen, Germany: RWTH Aachen},
+  abstract="Accessing and understanding contemporary and historical events of global impact such as the US elections and the Olympic Games is a major prerequisite for cross-lingual event analytics that investigate event causes, perception and consequences across country borders. In this paper, we present the Open Event Knowledge Graph (OEKG), a multilingual, event-centric, temporal knowledge graph composed of seven different data sets from multiple application domains, including question answering, entity recommendation and named entity recognition. These data sets are all integrated through an easy-to-use and robust pipeline and by linking to the event-centric knowledge graph EventKG. We describe their common schema and demonstrate the use of the OEKG at the example of three use cases: type-specific image retrieval, hybrid question answering over knowledge graphs and news articles, as well as language-specific event recommendation. The OEKG and its query endpoint are publicly available.",
+  pdf="http://ceur-ws.org/Vol-2829/paper5.pdf",
+  website="https://cleopatra-project.eu/index.php/open-event-knowledge-graph/",
+  code="https://github.com/cleopatra-itn/OEKG_Integrator",
+  abbr="WWW"
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@inproceedings{cheema2020check,
+  title={Check square at CheckThat! 2020: Claim Detection in Social Media via Fusion of Transformer and Syntactic Features},
+  author={Cheema, Gullal S. and Hakimov, Sherzod and Ewerth, Ralph},
+  booktitle={CEUR Workshop Proceesings, CheckThat! 2020 co-located with CLEF 2020},
+  volume={2696},
+  year={2020},
+  publisher={CEUR},
+  abstract="In this digital age of news consumption, a news reader has the ability to react, express and share opinions with others in a highly interactive and fast manner. As a consequence, fake news has made its way into our daily life because of very limited capacity to verify news on the Internet by large companies as well as individuals. In this paper, we focus on solving two problems which are part of the fact-checking ecosystem that can help to automate fact-checking of claims in an ever increasing stream of content on social media. For the first problem, claim check-worthiness prediction, we explore the fusion of syntactic features and deep transformer Bidirectional Encoder Representations from Transformers (BERT) embeddings, to classify check-worthiness of a tweet, i.e. whether it includes a claim or not. We conduct a detailed feature analysis and present our best performing models for English and Arabic tweets. For the second problem, claim retrieval, we explore the pre-trained embeddings from a Siamese network transformer model (sentence-transformers) specifically trained for semantic textual similarity, and perform KD-search to retrieve verified claims with respect to a query tweet. ",
+  html="http://ceur-ws.org/Vol-2696/",
+  code="https://github.com/cleopatra-itn/claim_detection",
+  pdf="http://ceur-ws.org/Vol-2696/paper_216.pdf",
+  selected="true",
+  abbr="CheckThat | CLEF"
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{cheema2020tib,
+  title={TIB’s Visual Analytics Group at MediaEval’20: Detecting Fake News on Corona Virus and 5G Conspiracy},
+  author={Cheema, Gullal S. and Hakimov, Sherzod and Ewerth, Ralph},
+  booktitle={CEUR Workshop Proceesings, MediaEval 2020 Workshop},
+  volume={2882},
+  year={2020},
+  publisher={CEUR},
+  abstract="Fake news on social media has become a hot topic of research as it negatively impacts the discourse of real news in the public. Specifi-cally, the ongoing COVID-19 pandemic has seen a rise of inaccurate and misleading information due to the surrounding controversies and unknown details at the beginning of the pandemic. The Fak-eNews task at MediaEval 2020 tackles this problem by creating a challenge to automatically detect tweets containing misinformation based on text and structure from Twitter follower network. In this paper, we present a simple approach that uses BERT embeddings and a shallow neural network for classifying tweets using only text, and discuss our findings and limitations of the approach in text-based misinformation detection.",
+  pdf="http://ceur-ws.org/Vol-2882/paper56.pdf",
+  code="https://github.com/cleopatra-itn/TIB_VA_MediaEval_FakeNews",
+  html="http://ceur-ws.org/Vol-2882/",
+  abbr="MediaEval"
+}
+
+
+@inproceedings{shukla2020semi,
+  title={Semi-supervised clustering with neural networks},
+  author={Shukla, Ankita and Cheema, Gullal S. and Anand, Saket},
+  booktitle={2020 IEEE Sixth International Conference on Multimedia Big Data (BigMM)},
+  pages={152--161},
+  year={2020},
+  organization={IEEE},
+  abstract="Clustering using neural networks has recently demonstrated promising performance in machine learning and computer vision applications. However, the performance of current approaches is limited either by unsupervised learning or their dependence on large set of labeled data samples. In this paper, we propose ClusterNet that uses pairwise semantic constraints from very few labeled data samples (<5% of total data) and exploits the abundant unlabeled data to drive the clustering approach. We define a new loss function that uses pairwise semantic similarity between objects combined with constrained k-means clustering to efficiently utilize both labeled and unlabeled data in the same framework. The proposed network uses convolution autoencoder to learn a latent representation that groups data into k specified clusters, while also learning the cluster centers simultaneously. We evaluate and compare the performance of ClusterNet on several datasets and state of the art deep clustering approaches. ",
+  html="https://www.computer.org/csdl/proceedings-article/bigmm/2020/09232516/1o56CFBx6Ks",
+  arxiv="1806.01547",
+  selected="true",
+  abbr="BIGMM"
+}
+
+@inproceedings{shukla2019primate,
+  title={Primate face identification in the wild},
+  author={Shukla, Ankita and Cheema, Gullal S. and Anand, Saket and Qureshi, Qamar and Jhala, Yadvendradev},
+  booktitle={Pacific Rim International Conference on Artificial Intelligence},
+  pages={387--401},
+  year={2019},
+  organization={Springer},
+  abstract="Ecological imbalance owing to rapid urbanization and deforestation has adversely affected the population of several wild animals. This loss of habitat has skewed the population of several non-human primate species like chimpanzees and macaques and has constrained them to co-exist in close proximity of human settlements, often leading to human-wildlife conflicts while competing for resources. For effective wildlife conservation and conflict management, regular monitoring of population and of conflicted regions is necessary. However, existing approaches like field visits for data collection and manual analysis by experts is resource intensive, tedious and time consuming, thus necessitating an automated, non-invasive, more efficient alternative like image based facial recognition. The challenge in individual identification arises due to unrelated factors like pose, lighting variations and occlusions due to the uncontrolled environments, that is further exacerbated by limited training data. Inspired by human perception, we propose to learn representations that are robust to such nuisance factors and capture the notion of similarity over the individual identity sub-manifolds. The proposed approach, Primate Face Identification (PFID), achieves this by training the network to distinguish between positive and negative pairs of images. The PFID loss augments the standard cross entropy loss with a pairwise loss to learn more discriminative and generalizable features, thus making it appropriate for other related identification tasks like open-set, closed set and verification. We report state-of-the-art accuracy on facial recognition of two primate species, rhesus macaques and chimpanzees under the four protocols of classification, verification, closed-set identification and open-set recognition.",
+  html="https://link.springer.com/chapter/10.1007/978-3-030-29894-4_32",
+  arxiv="1907.02642",
+  selected="true",
+  abbr="PRICAI"
+}
+
+@inproceedings{shukla2019hybrid,
+  title={A Hybrid Approach to Tiger Re-Identification},
+  author={Shukla, Ankita and Anderson, Connor and Cheema, Gullal S. and Gao, Pei and Onda, Suguru and Anshumaan, Divyam and Anand, Saket and Farrell, Ryan},
+  booktitle={2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)},
+  pages={294--301},
+  year={2019},
+  organization={IEEE},
+  abstract="Visual data analytics is increasingly becoming an important part of wildlife monitoring and conservation strategies. In this work, we discuss our solution to the image-based Amur tiger re-identification (Re-ID) challenge hosted by the CVWC Workshop at ICCV 2019. Various factors like poor quality images, lighting and pose variations, and limited images per identity make tiger Re-ID a difficult task for deep learning models. Consequently, we propose to utilize both deep learning and traditional SIFT descriptor-based matching for tiger re-identification. The proposed deep network is based on a DenseNet model, fine-tuned by minimizing a classification cross-entropy loss regularized by a pairwise KL-divergence loss that promotes better semantically discriminative features. We also utilize several data transformations to improve the model's robustness and generalization across views and image quality variations. We establish the efficacy of our approach on the 'Plain Re-ID' challenge task by reporting results on the pre-cropped tiger Re-ID dataset. To further test our Re-ID model's robustness to detection quality, we also report results on the 'Wild Re-ID' task, which incorporates learning a tiger detection model. We show that our model is able to perform well on both the plain and wild Re-ID tasks. Code will be available at https://github.com/FGVC/DelPro.",
+  html="https://ieeexplore.ieee.org/document/9022551",
+  pdf="https://openaccess.thecvf.com/content_ICCVW_2019/papers/CVWC/Shukla_A_Hybrid_Approach_to_Tiger_Re-Identification_ICCVW_2019_paper.pdf",
+  code="https://github.com/FGVC/DelPro",
+  abbr="CVWC | ICCV"
+}
+
+
+@inproceedings{cheema2017automatic,
+  title={Automatic detection and recognition of individuals in patterned species},
+  author={Cheema, Gullal S. and Anand, Saket},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={27--38},
+  year={2017},
+  organization={Springer},
+  abstract="Visual animal biometrics is rapidly gaining popularity as it enables a non-invasive and cost-effective approach for wildlife monitoring applications. Widespread usage of camera traps has led to large volumes of collected images, making manual processing of visual content hard to manage. In this work, we develop a framework for automatic detection and recognition of individuals in different patterned species like tigers, zebras and jaguars. Most existing systems primarily rely on manual input for localizing the animal, which does not scale well to large datasets. In order to automate the detection process while retaining robustness to blur, partial occlusion, illumination and pose variations, we use the recently proposed Faster-RCNN object detection framework to efficiently detect animals in images. We further extract features from AlexNet of the animal's flank and train a logistic regression (or Linear SVM) classifier to recognize the individuals. We primarily test and evaluate our framework on a camera trap tiger image dataset that contains images that vary in overall image quality, animal pose, scale and lighting. We also evaluate our recognition system on zebra and jaguar images to show generalization to other patterned species. Our framework gives perfect detection results in camera trapped tiger images and a similar or better individual recognition performance when compared with state-of-the-art recognition techniques. ",
+  html="https://link.springer.com/chapter/10.1007/978-3-319-71273-4_3",
+  arxiv="2005.02905",
+  selected="true",
+  abbr="ECML PKDD"
+}
+
+@masterthesis{cheema2016anisotropic,
+  title={Anisotropic mean shift clustering using distance metric learning},
+  author={Cheema, Gullal S. and Anand, Saket},
+  year={2016},
+  abstract="Mean shift is a non-parametric mode seeking procedure widely used in many computer vision problems. Mean shift clustering in particular is a well studied and established algorithm, which has many merits over the classic k-means clustering algorithm. These algorithms repeatedly calculate distance between data points to compute mean shift vector and cluster mean respectively using some distance function. In most of the cases, Euclidean distance function is used which weighs every dimension equally in the input space and thus often fails to capture the semantics of the data. To alleviate this problem, a general form of distance metric based on Mahalanobis distance is used that can be learned using the training data. Distance metric learning has received a lot of attention in recent years and has proven to be very successful in various problem domains. By learning a Mahalanobis distance metric, the input space is transformed such that, similar points get closer to each other and dissimilar points move further apart. A lot of research has been done on learning a global metric and integrating it with k-means algorithm, but there have been very few efforts of integrating metric learning with mean shift clustering. This work focuses on developing a unified framework for improving mean shift clustering by using global and local metric learning. We use a recently proposed Sparse Compositional Metric Learning (SCML) framework and integrate it with mean shift clustering to investigate the affect of using local metrics over a global metric. We also perform kernelization in the proposed framework that can handle datasets with non-linear decision boundaries. To establish the effectiveness of our approach, we performed experiments on 6 datasets of varying difficulty.",
+  pdf="https://repository.iiitd.edu.in/jspui/bitstream/handle/123456789/429/MT14008_GULLAL%20SINGH%20CHEEMA.pdf?sequence=1&isAllowed=y",
+  abbr="Master's Thesis"
 }
