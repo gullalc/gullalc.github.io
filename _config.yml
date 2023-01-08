@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  Exploring the AI landscape for social good # the website title (if blank, full name will be used instead)
+title:  Gullal S. Cheema # the website title (if blank, full name will be used instead)
 first_name: Gullal
 middle_name: S.
 last_name: Cheema
@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://gullalc.github.io # the base hostname & protocol for your site
-baseurl: / # the subpath of your site, e.g. /blog/
+baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -134,7 +134,7 @@ pagination:
 # Collections
 # -----------------------------------------------------------------------------
 
-#collections:
+collections:
   news:
     defaults:
       layout: post
@@ -145,7 +145,7 @@ pagination:
     permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: 10 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: List of all publications including workshop and conference papers, journals and thesis.
 years: [2023, 2022, 2021, 2020, 2019, 2017, 2016]
 nav: true
