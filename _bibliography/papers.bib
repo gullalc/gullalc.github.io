@@ -1,15 +1,13 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
 @article{mello2022combining,
   title={Combining Sentiment Analysis classifiers to explore multilingual news articles covering London 2012 and Rio 2016 olympics},
   author={Mello, Caio and Cheema, Gullal S. and Thakkar, Gaurish},
-  journal={To appear in International Journal of Digital Humanities},
+  journal={International Journal of Digital Humanities},
   year={2022},
+  abstract="This study aims to present an approach for the challenges of working with Sentiment Analysis (SA) applied to news articles in a multilingual corpus. It looks at the use and combination of multiple algorithms to explore news articles published in English and Portuguese. It presents a methodology that starts by evaluating and combining four SA algorithms (SenticNet, SentiStrength, Vader and BERT, being BERT trained in two datasets) to improve the quality of outputs. A thorough review of the algorithms’ limitations is conducted using SHAP, an explainable AI tool, resulting in a list of issues that researchers must consider before using SA to interpret texts. We propose a combination of the three best classifiers (Vader, Amazon BERT and Sent140 BERT) to identify contradictory results, improving the quality of the positive, neutral and negative labels assigned to the texts. Challenges with translation are addressed, indicating possible solutions for non-English corpora. As a case study, the method is applied to the study of the media coverage of London 2012 and Rio 2016 Olympic legacies. The combination of different classifiers has proved to be efficient, revealing the unbalance between the media coverage of London 2012, much more positive, and Rio 2016, more negative.",
   publisher={Springer},
-  abbr="IJDH"
+  abbr="IJDH",
+  html="https://link.springer.com/article/10.1007/s42803-022-00052-9",
+  code="https://github.com/caiocmello/sentiment-annotation-olympic-news"
 }
 
 @inproceedings{cheema-etal-2022-mm,
@@ -49,7 +47,7 @@
     url = "https://aclanthology.org/2022.semeval-1.105",
     doi = "10.18653/v1/2022.semeval-1.105",
     pages = "756--760",
-    abbr = "SemEval | NAACL",
+    abbr = "SemEval @<br>NAACL",
     abstract="The detection of offensive, hateful content on social media is a challenging problem that affects many online users on a daily basis. Hateful content is often used to target a group of people based on ethnicity, gender, religion and other factors. The hate or contempt toward women has been increasing on social platforms. Misogynous content detection is especially challenging when textual and visual modalities are combined to form a single context, e.g., an overlay text embedded on top of an image, also known as meme. In this paper, we present a multimodal architecture that combines textual and visual features to detect misogynous memes. The proposed architecture is evaluated in the SemEval-2022 Task 5: MAMI - Multimedia Automatic Misogyny Identification challenge under the team name TIB-VA. We obtained the best result in the Task-B where the challenge is to classify whether a given document is misogynous and further identify the following sub-classes: shaming, stereotype, objectification, and violence.",
     pdf="https://aclanthology.org/2022.semeval-1.105.pdf",
     code="https://github.com/tibhannover/multimodal-misogyny-detection-mami-2022",
@@ -69,7 +67,7 @@
   arxiv="2103.09602",
   html="http://ceur-ws.org/Vol-2829/",
   selected="true",
-  abbr="WWW"
+  abbr="CLEOPATRA @<br>WWW"
 }
 
 @inproceedings{cheema2021fair,
@@ -82,7 +80,7 @@
   html="https://dl.acm.org/doi/10.1145/3463945.3469058",
   arxiv="2106.08829",
   code="https://github.com/cleopatra-itn/fair_multimodal_sentiment",
-  abbr="MMPT | ICMR"
+  abbr="MMPT @<br>ICMR"
 }
 
 @inproceedings{gottschalk2021oekg,
@@ -95,7 +93,7 @@
   pdf="http://ceur-ws.org/Vol-2829/paper5.pdf",
   website="https://cleopatra-project.eu/index.php/open-event-knowledge-graph/",
   code="https://github.com/cleopatra-itn/OEKG_Integrator",
-  abbr="WWW"
+  abbr="CLEOPATRA @<br>WWW"
 }
 
 
@@ -110,8 +108,7 @@
   html="http://ceur-ws.org/Vol-2696/",
   code="https://github.com/cleopatra-itn/claim_detection",
   pdf="http://ceur-ws.org/Vol-2696/paper_216.pdf",
-  selected="true",
-  abbr="CheckThat | CLEF"
+  abbr="CheckThat @<br>CLEF"
 }
 
 @inproceedings{cheema2020tib,
@@ -153,7 +150,6 @@
   abstract="Ecological imbalance owing to rapid urbanization and deforestation has adversely affected the population of several wild animals. This loss of habitat has skewed the population of several non-human primate species like chimpanzees and macaques and has constrained them to co-exist in close proximity of human settlements, often leading to human-wildlife conflicts while competing for resources. For effective wildlife conservation and conflict management, regular monitoring of population and of conflicted regions is necessary. However, existing approaches like field visits for data collection and manual analysis by experts is resource intensive, tedious and time consuming, thus necessitating an automated, non-invasive, more efficient alternative like image based facial recognition. The challenge in individual identification arises due to unrelated factors like pose, lighting variations and occlusions due to the uncontrolled environments, that is further exacerbated by limited training data. Inspired by human perception, we propose to learn representations that are robust to such nuisance factors and capture the notion of similarity over the individual identity sub-manifolds. The proposed approach, Primate Face Identification (PFID), achieves this by training the network to distinguish between positive and negative pairs of images. The PFID loss augments the standard cross entropy loss with a pairwise loss to learn more discriminative and generalizable features, thus making it appropriate for other related identification tasks like open-set, closed set and verification. We report state-of-the-art accuracy on facial recognition of two primate species, rhesus macaques and chimpanzees under the four protocols of classification, verification, closed-set identification and open-set recognition.",
   html="https://link.springer.com/chapter/10.1007/978-3-030-29894-4_32",
   arxiv="1907.02642",
-  selected="true",
   abbr="PRICAI"
 }
 
@@ -168,7 +164,7 @@
   html="https://ieeexplore.ieee.org/document/9022551",
   pdf="https://openaccess.thecvf.com/content_ICCVW_2019/papers/CVWC/Shukla_A_Hybrid_Approach_to_Tiger_Re-Identification_ICCVW_2019_paper.pdf",
   code="https://github.com/FGVC/DelPro",
-  abbr="CVWC | ICCV"
+  abbr="CVWC @<br>ICCV"
 }
 
 
